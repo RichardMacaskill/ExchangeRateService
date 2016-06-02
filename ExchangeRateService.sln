@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRateService", "ExchangeRateService\ExchangeRateService.csproj", "{DBA08104-27E1-4874-8E01-6F6F0D4DA4EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51} = {6CAFC0C6-A428-4D30-A9F9-700E829FEA51}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRateService.Tests", "ExchangeRateService.Tests\ExchangeRateService.Tests.csproj", "{1F908DD4-254D-4115-B252-D2AD19857EC6}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "ExchangeRateService.PowerShell", "ExchangeRateService.PowerShell\ExchangeRateService.PowerShell.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBA08104-27E1-4874-8E01-6F6F0D4DA4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA08104-27E1-4874-8E01-6F6F0D4DA4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA08104-27E1-4874-8E01-6F6F0D4DA4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA08104-27E1-4874-8E01-6F6F0D4DA4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F908DD4-254D-4115-B252-D2AD19857EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F908DD4-254D-4115-B252-D2AD19857EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F908DD4-254D-4115-B252-D2AD19857EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F908DD4-254D-4115-B252-D2AD19857EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://macaskill.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ExchangeRateService\\ExchangeRateService.csproj
+		SccProjectName1 = ExchangeRateService
+		SccLocalPath1 = ExchangeRateService
+		SccProjectUniqueName2 = ExchangeRateService.Tests\\ExchangeRateService.Tests.csproj
+		SccProjectName2 = ExchangeRateService.Tests
+		SccLocalPath2 = ExchangeRateService.Tests
+		SccProjectUniqueName3 = ExchangeRateService.PowerShell\\ExchangeRateService.PowerShell.pssproj
+		SccProjectName3 = ExchangeRateService.PowerShell
+		SccLocalPath3 = ExchangeRateService.PowerShell
+	EndGlobalSection
+EndGlobal
