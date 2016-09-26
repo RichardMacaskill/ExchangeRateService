@@ -13,8 +13,8 @@ namespace ExchangeRateService.Tests
         static InstantClone()
         {
             // Set up Instant Clone
-            var container = new InstantCloneSetup(new LocalSqliteConfigurationModule()).InitialiseClient();
-
+            var container = new InstantCloneSetup();
+            
             ConfigService = container.Resolve<IConfigService>();
             SnapshotService = container.Resolve<ISnapshotService>();
             CloneService = container.Resolve<ICloneService>();

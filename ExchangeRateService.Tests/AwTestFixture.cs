@@ -31,7 +31,7 @@ namespace ExchangeRateService.Tests
             try
             {
                 // Create AW clone before every test
-                ExchangeRateService.Tests.InstantClone.Clone("AW2014Snap", "_AW2014Clone");
+                Tests.InstantClone.Clone("AW2014Snap", "_AW2014Clone");
             }
             catch (Exception ex)
             {

@@ -23,9 +23,9 @@ namespace ExchangeRateService.Tests
         }
         [Test]
         public void GetGarbageRateSucceedsWithNoData()
-        {
+        { 
             var dataSvc = new ExchangeRateService.Services.DataService();
-            var ex = dataSvc.GetExchangeRates("$$$%%%$$$", DateTime.Now);
+            var ex = dataSvc.GetExchangeRates("$$$££££$$", DateTime.Now);
             // the correct behaviour is to return empty dataset for invalid ISO. Should it be?
             Assert.AreEqual(ex.Count, 0);
             //Assert.Throws<ArgumentOutOfRangeException>( (ex[0].Currency) );
